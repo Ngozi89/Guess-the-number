@@ -68,18 +68,31 @@ p {
 /* Media query for tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     .wrapper {
-        width: 70vmin;
+        width: 80vmin;
         height: 70vmin;
     }
 
-    
+    h2, p {
+        font-size: 200%;
+        margin-top: 40px;
+    }
+
+        .input-field input {
+            margin-top: 60px;
+            margin-left: 20px;
+    }
+
+        .input-field button {
+             margin-top: 60px;
+             margin-left: 20px;
+    }
 }
 
 /* Media query for tablets and larger (768px and up) */
 @media screen and (min-width: 1200px) {
     .wrapper {
-        width: 50vmin;
-        height: 30vmin;
+        width: 70vmin;
+        height: 50vmin;
     }
 
 }
