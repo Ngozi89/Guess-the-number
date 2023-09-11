@@ -18,9 +18,20 @@ checkButton.addEventListener("click", () => {
 
     // Check if input value is equal to random number and update the guessed number and disable input
     if (inputValue == randomNum) {
-        [guess.textContent, input.disabled] = ["Your guess is correct", true];
+        [guess.textContent, input.disabled] = ["Hey! Your guess is right!", true];
         [checkButton.textContent, guess.style.color] = ["Replay"];
     } else if (inputValue > randomNum && inputValue < 100) {
         [guess.textContent, remainChances.textContent] = ["Your guess is high", chance];
+    } else if (inputValue < randomNum && inputValue > 0) {
+        [guess.textContent, remainChances.textContent] = ["Your guess is low", chance];
+    } else {
+        // Update the guessed remaining chances
+        [guess.textContent, remainChances.textContent] = ["Your number is invalid", chance];
     }
-    });
+
+    // Update guessed number text and indicate user loss.
+    if (chance == 0) {
+        [checkButton.textContent, input.disabled, inputValue] = ["Replay", true, ""];
+        [guess.textContent, guess.style.color] = ["You lost the game, try again"];
+    }
+});

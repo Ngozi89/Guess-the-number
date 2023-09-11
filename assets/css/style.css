@@ -21,7 +21,7 @@ body {
     
     background: white;
     width: 60vmax;
-    height: 30vmax;
+    height: 40vmax;
     text-align: center;
     padding: 10px;
 }
@@ -71,6 +71,8 @@ p {
         width: 70vmin;
         height: 70vmin;
     }
+
+    
 }
 
 /* Media query for tablets and larger (768px and up) */
