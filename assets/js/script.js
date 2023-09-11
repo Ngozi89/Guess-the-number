@@ -15,4 +15,10 @@ checkButton.addEventListener("click", () => {
     chance--;
     // Get value from input field
     let inputValue = input.value;
+
+// Check if input value is equal to random number, update the guessed number and disable input
+    if (inputValue == randomNum) {
+        [guess.textContent, input.disabled] = ["Your guess is correct", true];
+        [checkButton.textContent, guess.style.color] = ["Replay"];
+    }
 });
