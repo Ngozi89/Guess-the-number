@@ -19,12 +19,14 @@ body {
 
 .wrapper {
     
-    background: #fff;
+    background: white;
+    width: 60vmax;
+    height: 30vmax;
     text-align: center;
-    padding: 80px;
+    padding: 10px;
 }
 
-header {
+h2 {
     font-size: 110%;
     color: #3a3a3a;
 }
@@ -48,6 +50,7 @@ p {
 .input-field input {
     text-align: center;
     color: #3a3a3a;
+    margin-top: 30px;
 }
 
 .input-field button {
@@ -55,6 +58,7 @@ p {
     color: #ffffff;
     cursor: pointer;
     transition: 0.3s;
+    margin-top: 30px;
 }
 
 .input-field button:active {
