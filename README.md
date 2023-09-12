@@ -1,39 +1,63 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Guess The Number
 
-Welcome,
+Guess the number game is design with kids in mind and it's primary purpose is to help kids to learn numbers and think about numbers approximations and various combinations.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+In addition Guess the number game is a site that hopes to demonstrate how pure JavaScript works in a real-world context. The site will be targeted toward people who not only love to implement more advanced JavaScript concepts but also maths. the site is a fully responsive JavaScript game that will allow users to to guess number randomly.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+![Responsice Mockup](image)
 
-## Codeanywhere Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### Existing Features
 
-`python3 -m http.server`
+- __Guess the number Heading__
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+  - Featured at the top of the page, Guess The Number heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- __The Game Area__
 
-`http_server`
+  - The game have a message that tells the user what to do.
+  - The user will be able to guess any number starting from 1 too 100. This type of game will be play by writing any number and click check to determine if the guess is correct or wrong. The user will have 10 chances to get the correct number or lose the game.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Game](img)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- __The Score Area__
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - This section will allow user to see how guess they have left in the range of 10 to 1
 
-To log into the Heroku toolbelt CLI:
+![score](media/love_maths_answer.png)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+For some/all of your features, you may choose to reference the specific project files that implement them.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
----
+### Features Left to Implement
 
-Happy coding!
+- Another feature idea is to get the game review the correct number if the user couln't get the correct answer at the guess of 10 to 1.
+
+## Testing
+
+### Validator Testing
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
+  - 
+- JavaScript
+  - No errors were found however, 11 warning when passing through the official [Jshint validator](https://jshint.com/
+
+### Unfixed Bugs
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - <https://ngozi89.github.io/Guess-the-number//>
+
+## Credits
+
+### Content

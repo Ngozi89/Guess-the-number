@@ -34,4 +34,7 @@ checkButton.addEventListener("click", () => {
         [checkButton.textContent, input.disabled, inputValue] = ["Replay", true, ""];
         [guess.textContent, guess.style.color] = ["You lost the game, try again"];
     }
+    if (chance < 0) {
+        window.location.reload();
+    }
 });
