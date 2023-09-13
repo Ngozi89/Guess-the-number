@@ -40,7 +40,8 @@ In addition Guess the number game is a site that hopes to demonstrate how pure J
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
 - Lighthouse
-- I used devtools to run it through lighthouse to test the accessibility, Perfomance and SEO ![Lighthouse](assets/images/2023-09-13 (6).png)
+- I used devtools to run it through lighthouse to test the accessibility, Perfomance and SEO 
+ ![Lighthouse](assets/images/lighthousetest.png)
 - JavaScript
   - No errors were found however, 11 warning when passing through the official [Jshint validator](https://jshint.com/
 
