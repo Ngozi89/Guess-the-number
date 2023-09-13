@@ -1,5 +1,5 @@
 // The DOM elements
-const input = document.querySelector("input"),
+let input = document.querySelector("input"),
     guess = document.querySelector(".guess"),
     checkButton = document.querySelector("button"),
     remainChances = document.querySelector(".chances");
@@ -32,7 +32,7 @@ checkButton.addEventListener("click", () => {
     // Update guessed number text and indicate user loss.
     if (chance == 0) {
         [checkButton.textContent, input.disabled, inputValue] = ["Replay", true, ""];
-        [guess.textContent, guess.style.color] = ["You lost the game, try again"];
+        [guess.textContent] = ["You lost the game, try again"];
     }
     if (chance < 0) {
         window.location.reload();
