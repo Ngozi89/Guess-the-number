@@ -12,18 +12,32 @@ In addition Guess the number game is a site that hopes to demonstrate how pure J
 
 - __Guess the number Heading__
 
-  - Featured at the top of the page, Guess The Number heading is easy to see for the users. Upon viewing the page, the user will be able to see the name of the game and understand how to play it.
+- Featured at the top of the page, Guess The Number heading is easy to see for the users. Upon viewing the page, the user will be able to see the name and image of the game and understand how to play it.
+
+### As a **first time user**
+
+- I want to be able to access the website from any device.
+- I want to easily understand how to play the game.
+
+### As a **returning user**
+
+- I want to be able to play the game again.
 
 - __The Game Area__
 
-  - The game have a message that tells the user what to do which is (Guess a number 1 t0 100).
-  - The user will be able to guess any number starting from 1 too 100. This type of game will be play by writing any number and click Check to determine if the guess is correct or wrong. The user will have 10 chances to get the correct number or lose the game.
+- The game have a message that tells the user what to do which is (Guess a number 1 t0 100).
+- The user will be able to guess any number starting from 1 to 100. 
+- The user will play the game by writing any number and click Check to determine if the guess is correct or wrong. 
+- The user will have 10 chances to get the correct number or lose the game.
+- At the end of the game, the user can replay as long as the user wants
 ![Game](assets/images/yourguessiscorrect.jpg)
 ![Game](assets/images/guessnumber.jpg)
+![Game](assets/images/low-guess.png)
+![Game](assets/images/zero-chance-game-over.png)
 
 - __The Score Area__
 
-  - This section will allow user to see how many guess they have left in the range of 10 to 1
+- This section will allow user to see how many guess they have left in the range of 10 to 1
 
 ![score](assets/images/chances.jpg)
 
@@ -36,22 +50,23 @@ In addition Guess the number game is a site that hopes to demonstrate how pure J
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+- No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
+- No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
 - Lighthouse
 - I used devtools to run it through lighthouse to test the accessibility, Perfomance and SEO 
  ![Lighthouse](assets/images/lighthousetest.png)
 - JavaScript
-  - No errors were found however, 11 warning when passing through the official [Jshint validator](https://jshint.com/
+- No errors were found however, 11 warning when passing through the official [Jshint validator](https://jshint.com/)
 
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - In the GitHub repository, navigate to the Settings tab
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - <https://ngozi89.github.io/Guess-the-number//>
 
 ## Credits
+- <https://www.codingnepalweb.com/>
