@@ -8,38 +8,37 @@
     box-sizing: border-box;
 }
 
-.logo {
-    min-height: 100vh;
-    background: url(../images/guess-the-num.jpg) center center/cover no-repeat;
-    position: relative;
+.brain {
+    color: #523f81;
 }
 
-.start-game {
-    font-size: 250%;
-    color: #9e046b;
-    position: absolute;
-    width: 15%;
-    min-height: 80px;
-    bottom: 160px;
-    margin-left: 1100px;
+img {
+    width: 80%;
+    height: 260px;
+    margin-top: 60px;
+    margin-left: 40px;
 }
 
 .wrapper {
-    
-    background: white;
-    width: 60vmax;
-    height: 40vmax;
+    background: #523f81;
+    width: 90%;
+    height: 400px;
+    margin-top: 90px;
+    margin-left: 20px;
     text-align: center;
     padding: 10px;
 }
 
 h2 {
-    font-size: 110%;
-    color: #3a3a3a;
+    font-size: 130%;
+    color: #fff;
+    margin-right: 30px;
+    margin-top: 40px;
 }
 
 p {
-    color: inherit;
+    color: #fff;
+    margin-top: 60px;
 }
 
 .input-field {
@@ -61,6 +60,7 @@ p {
 }
 
 .input-field button {
+    font-size: 30px;
     background: #523f81;
     color: #ffffff;
     cursor: pointer;
@@ -77,6 +77,7 @@ p {
     .wrapper {
         width: 80vmin;
         height: 70vmin;
+        margin-left: 80px;
     }
 
     h2, p {
@@ -97,9 +98,14 @@ p {
 
 /* Media query for tablets and larger (768px and up) */
 @media screen and (min-width: 1200px) {
+    img {
+        width: 80vh;
+        margin-left: 440px;
+    }
     .wrapper {
         width: 70vmin;
         height: 50vmin;
+        margin-left: 480px;
     }
 
 }
