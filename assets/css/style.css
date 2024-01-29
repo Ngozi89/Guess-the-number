@@ -8,8 +8,10 @@
     box-sizing: border-box;
 }
 
-.brain {
-    color: #523f81;
+h1 {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 25px;
 }
 
 img {
@@ -74,10 +76,19 @@ p {
 
 /* Media query for tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    h1 {
+        margin-left: 289px;
+        font-size: 49px;
+    }
+
+    img {
+        width: 50%;
+        margin-left: 280px;
+    }
     .wrapper {
         width: 80vmin;
         height: 70vmin;
-        margin-left: 80px;
+        margin-left: 99px;
     }
 
     h2, p {
@@ -98,6 +109,10 @@ p {
 
 /* Media query for tablets and larger (768px and up) */
 @media screen and (min-width: 1200px) {
+    h1 {
+        margin-left: 589px;
+    }
+
     img {
         width: 80vh;
         margin-left: 440px;
